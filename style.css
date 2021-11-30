@@ -33,33 +33,36 @@ body{
 
 .btn {
     background: hsl(322, 100%, 66%);
-    color: #f6f6f6;
+    color: #fff;
     border: none;
     border-radius: 50px;
     margin-top: 15px;
     padding: 10px;
     font-size: 10px;
-    width: 50%;
+    width: 200px;
 }
 
 .btn:hover{
     background: hsl(322, 83%, 82%);
-    color: #f6f6f6;
+    color: #fff;
+    cursor: pointer;
 }
 
 #header-btn {
     background: #ffffff;
-    color: #333;
+    color: #000;
     border: 1px solid #f6f6f6;
     border-radius: 50px;
     padding: 0.5rem;
     width: 150px;
     font-size: 8px;
+    font-weight: bold;
     
 }
 
 #header-btn:hover {
     cursor: pointer;
+    color: #333;
 
 }
 
@@ -94,7 +97,7 @@ p {
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     display: block;
     padding: 0.2rem;
 }
@@ -125,6 +128,7 @@ a{
     background: #f6f6f6;
     padding: 3rem;
     margin: auto;
+    border-radius: 8px;
     align-items: center;
     margin-bottom: -100px;
 
@@ -169,7 +173,6 @@ footer{
 
 .footer-info{
     padding: 0 4rem;
-    opacity: 0.8;
 }
 
 .footer-link:hover{
